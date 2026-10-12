@@ -23,6 +23,12 @@ public struct MainTabView: View {
                     Label("NLP Studio", systemImage: "waveform.and.magnifyingglass")
                 }
                 .tag(1)
+
+            MCPDemoView()
+                .tabItem {
+                    Label("MCP Studio", systemImage: "point.3.connected.trianglepath.dotted")
+                }
+                .tag(2)
         }
     }
 }
